@@ -1,0 +1,4 @@
+.bg-accent {
+	color: #ffffff;
+	background-color: var(--accent);
+}

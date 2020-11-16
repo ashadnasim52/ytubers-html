@@ -1,0 +1,10 @@
+@media only screen and (max-width: 750px) {
+	header .header-buttons {
+		justify-content: center !important;
+		align-items: center;
+		padding-top: 10px;
+	}
+	header .header-info {
+		text-align: center;
+	}
+}

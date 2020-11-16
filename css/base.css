@@ -1,0 +1,55 @@
+:root {
+	--primary: #232730;
+	--secondary: #3a3e45;
+	--white: #888787;
+	--accent: #e56237;
+}
+
+body {
+	background-color: var(--primary);
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+.btn-accent {
+	background-color: var(--accent);
+	color: #fff;
+	border-color: var(--accent);
+	outline: none;
+}
+.btn-accent:hover {
+	color: #fff;
+}
+
+button:hover {
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 0.5s;
+}
+
+/* to change bootstrap placeholder color */
+/* https://stackoverflow.com/a/20774043/10304059 */
+
+.form-control::-webkit-input-placeholder {
+	color: var(--white);
+} /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+	color: var(--white);
+} /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+	color: var(--white);
+} /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+	color: var(--white);
+} /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+	color: var(--white);
+}
+
+.form-control {
+	padding: 20px 25px;
+	font-size: 19px;
+	border-radius: 8px;
+}

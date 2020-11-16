@@ -1,0 +1,48 @@
+@import 'base.css';
+@import 'utils.css';
+
+@import 'mediaquery.css';
+
+/* header */
+.header {
+	background-color: var(--secondary);
+	padding: 10px 0;
+	color: #fff;
+	border-bottom: 1px solid #333;
+}
+
+.header .flex {
+	justify-content: space-between;
+}
+
+.header button {
+	padding: 2px 15px;
+	border-radius: 5px;
+}
+
+/* register */
+.register h1 {
+	color: var(--accent);
+}
+
+.register img {
+	width: 350px;
+}
+/* login */
+.login h1 {
+	color: var(--accent);
+}
+
+.login img {
+	width: 450px;
+}
+
+.form-btn {
+	border-radius: 8px;
+}
+
+/* footer */
+footer .container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
