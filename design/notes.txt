@@ -1,0 +1,31 @@
+General:
+Use bootstrap and fontawesome icons.
+For slider, use
+https://kenwheeler.github.io/slick/
+
+Backend of this project will be django, that I have mostly created. 
+So all text and numbers will be coming from backend
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+HOME page:
+1st section is slider, use pexels to put any image in slider
+Cards will use image from https://placeholder.com/
+
+Featured section is slider.
+
+Latest on board is NOT a slider. It will display card based on backend value
+
+Our team is slider
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+About is.
+Grey boxes are images
+team section is a slider
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Contact.
+Regular contact section. Use bootstrap
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Rest all are simple bootstrap pages.

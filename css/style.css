@@ -37,10 +37,17 @@
 	width: 450px;
 }
 
-.form-btn {
+.login .form-btn {
 	border-radius: 8px;
 }
 
+/* about us */
+.about-us {
+	overflow: hidden;
+}
+.about-us .btn {
+	padding: 5px 20px;
+}
 /* footer */
 footer .container {
 	padding-top: 30px;
