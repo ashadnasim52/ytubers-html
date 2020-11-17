@@ -14,7 +14,8 @@ a {
 	color: #fff;
 }
 
-h2 {
+h2,
+h3 {
 	color: var(--accent);
 }
 .btn-accent {
@@ -32,26 +33,8 @@ button:hover {
 	animation-duration: 0.5s;
 }
 
-/* to change bootstrap placeholder color */
-/* https://stackoverflow.com/a/20774043/10304059 */
-
-.form-control::-webkit-input-placeholder {
-	color: var(--white);
-} /* WebKit, Blink, Edge */
-.form-control:-moz-placeholder {
-	color: var(--white);
-} /* Mozilla Firefox 4 to 18 */
-.form-control::-moz-placeholder {
-	color: var(--white);
-} /* Mozilla Firefox 19+ */
-.form-control:-ms-input-placeholder {
-	color: var(--white);
-} /* Internet Explorer 10-11 */
-.form-control::-ms-input-placeholder {
-	color: var(--white);
-}
-
-.form-control {
+.form-control[type='text'],
+[type='textarea'] {
 	padding: 20px 25px;
 	font-size: 19px;
 	border-radius: 8px;
@@ -60,4 +43,12 @@ button:hover {
 .card {
 	color: var(--secondary);
 	width: 18rem;
+}
+
+main {
+	overflow: hidden;
+}
+
+.table {
+	color: #fff;
 }

@@ -42,9 +42,6 @@
 }
 
 /* about us */
-.about-us {
-	overflow: hidden;
-}
 .about-us .btn {
 	padding: 5px 20px;
 }
@@ -52,4 +49,28 @@
 footer .container {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+/* search page */
+
+.search-results {
+	justify-items: center;
+}
+.search-results .result {
+	position: relative;
+}
+.search-results .result span {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	padding: 5px 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/* transform: translate(-50%, 0); */
+}
+
+.search-results .result-description {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 10px;
 }
