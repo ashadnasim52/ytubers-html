@@ -10,9 +10,14 @@
 	justify-content: space-between;
 }
 
-.header button {
+.header a {
 	padding: 2px 15px;
 	border-radius: 5px;
+}
+
+.header a:hover {
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 0.5s;
 }
 
 /* register */
@@ -69,4 +74,40 @@ footer .container {
 .single-page-tubers .video img {
 	height: 450px;
 	border-radius: 5px;
+}
+
+.controls {
+}
+
+.controls i {
+	background-color: #fff;
+	padding: 10px 15px;
+	font-size: 35px;
+	color: var(--accent);
+}
+
+.controls i:first-child {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.controls i:last-child {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.home .tubers {
+	justify-items: center;
+}
+
+.top-banner {
+	position: relative;
+}
+.top-banner img {
+	height: 380px;
+	width: 100%;
+}
+.home .top-banner .top-container {
+	position: absolute;
+	top: 30%;
+	left: 0;
 }
